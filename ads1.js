@@ -2,9 +2,9 @@
   window.googletag = window.googletag || { cmd: [] };
 
   const adSlots = [
-    { adUnit: "/23330730517/playrumble.online _d1", divId: "myw_top_1", size: [[300, 250], [336, 280], "fluid"] },
-    { adUnit: "/23330730517/playrumble.online _d2", divId: "myw_top_2", size: [[300, 250], [336, 280], "fluid"] },
-    { adUnit: "/23330730517/playrumble.online _d3", divId: "myw_top_3", size: [[300, 250], [336, 280], "fluid"] },
+    { adUnit: "/23330730517/playrumble.online_d1", divId: "myw_top_1", size: [[300, 250], [336, 280], "fluid"] },
+    { adUnit: "/23330730517/playrumble.online_d2", divId: "myw_top_2", size: [[300, 250], [336, 280], "fluid"] },
+    { adUnit: "/23330730517/playrumble.online_d3", divId: "myw_top_3", size: [[300, 250], [336, 280], "fluid"] },
   ];
 
   let rewardedSlot = null;
@@ -68,7 +68,7 @@
 
     // Rewarded ad slot — no .then(), just store the slot directly
     rewardedSlot = googletag.defineOutOfPageSlot(
-      "/23330730517/playrumble.online _reward",
+      "/23330730517/playrumble.online_reward",
       googletag.enums.OutOfPageFormat.REWARDED
     );
 

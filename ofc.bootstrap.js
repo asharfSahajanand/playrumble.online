@@ -258,9 +258,9 @@ function getCurrentFloorIndex(floorArray) {
   const tracking = getRequestTracking();
 
   const adSlots = [
-    { adUnit: "/23330730517/playrumble.online _d1", divId: "myw_top_1" },
-    { adUnit: "/23330730517/playrumble.online _d2", divId: "myw_top_2" },
-    { adUnit: "/23330730517/playrumble.online _d3", divId: "myw_top_3" },
+    { adUnit: "/23330730517/playrumble.online_d1", divId: "myw_top_1" },
+    { adUnit: "/23330730517/playrumble.online_d2", divId: "myw_top_2" },
+    { adUnit: "/23330730517/playrumble.online_d3", divId: "myw_top_3" },
   ];
 
   googletag.cmd.push(function () {
@@ -478,7 +478,7 @@ async function executeRewardedAd() {
 
         currentSlot = googletag
           .defineOutOfPageSlot(
-            "/23330730517/playrumble.online _reward",
+            "/23330730517/playrumble.online_reward",
             googletag.enums.OutOfPageFormat.REWARDED
           )
           .addService(googletag.pubads())
